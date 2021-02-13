@@ -15,7 +15,7 @@ public class HelloClassLoader extends ClassLoader{
     }
 
     private byte[] decodeClass() {
-        byte[] encode_buf = readClassFile("D:\\极客邦\\JavaCourse\\src\\homework2\\Hello.xlass");
+        byte[] encode_buf = readClassFile("E:\\JavaCourse\\code_space\\JAVA-000\\Week_01\\homework2\\Hello.xlass");
         if (encode_buf == null) {
             return null;
         }
